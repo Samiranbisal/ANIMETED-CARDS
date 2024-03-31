@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animeted Cards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all-type">
+      <h1><span class="text-chang">Animeted Cards</span></h1>
+      <div class="container">
+        <div class="card">
+          <img src="img/tiger.jpeg" alt="" />
+          <div class="intro">
+            <h1>Tiger</h1>
+            <p>
+              Lorem <span>Hello</span>ipsum, dolor sit amet consectetur
+              adipisicing elit. Non ea a quod, eos ad impedit iste iure commodi
+              distinctio minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/penguins.png" alt="" />
+          <div class="intro">
+            <h1>penguins</h1>
+            <p>
+              Lorem <span>Hello</span>ipsum, dolor sit amet consectetur
+              adipisicing elit. Non ea a quod, eos ad impedit iste iure commodi
+              distinctio minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/picok.jpeg" alt="" />
+          <div class="intro">
+            <h1>picok</h1>
+            <p>
+              Lorem <span>Hello</span>ipsum, dolor sit amet consectetur
+              adipisicing elit. Non ea a quod, eos ad impedit iste iure commodi
+              distinctio minus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".text-chang", {
+        strings: ["", "Animeted Cards", "", "ANIMETED CARDS"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
